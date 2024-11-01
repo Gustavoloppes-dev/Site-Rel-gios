@@ -1,0 +1,1 @@
+npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --watch

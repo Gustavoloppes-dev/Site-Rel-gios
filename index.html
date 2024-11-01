@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relógios</title>
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8d1bed1a64.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body class="font-principal px-6 bg-container-cor">
+    <header
+      class="text-text-color flex justify-between py-4 pl-6 pr-[18px] bg-transparent absolute top-0 left-0 w-full z-10"
+    >
+      <div class="flex gap-1 items-center">
+        <img class="size-5" src="assets/image/watch.svg" alt="Icone Relogio" />
+        <h1 class="uppercase text-[15px] font-bold">Rolex</h1>
+      </div>
+      <nav class="hidden">
+        <ul>
+          <li>Home</li>
+          <li>Destaque</li>
+          <li>Produtos</li>
+          <li>Novos</li>
+        </ul>
+      </nav>
+      <div class="flex gap-4">
+        <img class="size-5" src="assets/image/moon.svg" alt="" />
+        <img class="size-5" src="assets/image/bag.svg" alt="" />
+        <img class="size-5" src="assets/image/gridalt.svg" alt="" />
+      </div>
+    </header>
+    <main>
+      <section
+        class="flex justify-between flex-wrap gap-y-11 items-center pb-8"
+      >
+        <!-- <aside class="order-1"> -->
+        <ul
+          class="order-1 flex flex-col-reverse w-[20%] h-[430px] justify-center text-text-color-lg box-border gap-y-16"
+        >
+          <li class="text-xs -rotate-90 h-auto"><a href="">Facebook</a></li>
+          <li class="text-xs -rotate-90 h-auto"><a href="">Twitter</a></li>
+          <li class="text-xs -rotate-90 h-auto"><a href="">Instagram</a></li>
+        </ul>
+        <!-- </aside> -->
+        <div class="order-3">
+          <h2 class="text-[2rem] font-bold text-left uppercase">
+            Novo Relógio Coleção B720
+          </h2>
+          <p class="text-[15px] pt-4 pb-6 text-text-color">
+            Última chegada dos novos relógios importados da série B720, com
+            design moderno e resistente.
+          </p>
+          <span class="text-xl text-cor-destaque font-medium pb-12 block"
+            >$1245</span
+          >
+          <div class="flex flex-row text-[15px] items-center">
+            <a href="" class="bg-dk-text-color text-text-color py-4 px-6"
+              >Descobrir</a
+            >
+            <button
+              class="bg-cor-btn text-container-cor py-5 px-[26.5px] uppercase w-[auto]"
+            >
+              Add Carrinho
+            </button>
+          </div>
+        </div>
+        <div
+          class="order-2 w-[80%] bg-cor-destaque h-[430px] flex items-center relative right-[-24px]"
+        >
+          <img src="assets/image/img 1.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Section Destaque -->
+
+      <section>
+        <div class="flex flex-col gap-4 justify-center items-center pb-12">
+          <span class="w-[67px] bg-cor-destaque h-[2px] block"></span>
+          <h3 class="font-medium uppercase">Destaque</h3>
+        </div>
+        <div class="flex flex-col gap-10">
+          <article
+            class="w-full pt-10 pb-12 relative flex flex-col justify-center items-center shadow-[0px_4px_18px_4px_#F0F0F0]"
+          >
+            <span
+              class="absolute text-container-cor px-4 py-2 -rotate-90 bg-cor-destaque top-8 left-[-18px]"
+              >Oferta</span
+            >
+            <div class="flex flex-col items-center pb-6">
+              <img src="assets/image/Jazzmaster.png" alt="" class="" />
+              <p class="font-bold uppercase pt-4 pb-3">JazzMaster</p>
+              <p class="font-bold text-cor-destaque">$1050</p>
+            </div>
+            <button
+              class="bg-cor-btn px-8 py-5 text-container-cor uppercase font-bold"
+            >
+              Add Carrinho
+            </button>
+          </article>
+          <article
+            class="w-full pt-10 pb-12 relative flex flex-col justify-center items-center shadow-[0px_4px_18px_4px_#F0F0F0]"
+          >
+            <span
+              class="absolute text-container-cor px-4 py-2 -rotate-90 bg-cor-destaque top-8 left-[-18px]"
+              >Oferta</span
+            >
+            <div class="flex flex-col items-center pb-6">
+              <img src="assets/image/ingersoll.png" alt="" class="" />
+              <p class="font-bold uppercase pt-4 pb-3">Ingersoll</p>
+              <p class="font-bold text-cor-destaque">$250</p>
+            </div>
+            <button
+              class="bg-cor-btn px-8 py-5 text-container-cor uppercase font-bold"
+            >
+              Add Carrinho
+            </button>
+          </article>
+          <article
+            class="w-full pt-10 pb-12 relative flex flex-col justify-center items-center shadow-[0px_4px_18px_4px_#F0F0F0]"
+          >
+            <span
+              class="absolute text-container-cor px-4 py-2 -rotate-90 bg-cor-destaque top-8 left-[-18px]"
+              >Oferta</span
+            >
+            <div class="flex flex-col items-center pb-6">
+              <img src="assets/image/RoseGold.png" alt="" class="" />
+              <p class="font-bold uppercase pt-4 pb-3">Rose Gold</p>
+              <p class="font-bold text-cor-destaque">$890</p>
+            </div>
+            <button
+              class="bg-cor-btn px-8 py-5 text-container-cor uppercase font-bold"
+            >
+              Add Carrinho
+            </button>
+          </article>
+        </div>
+      </section>
+      <!-- section história -->
+      <section class="pt-12">
+        <div class="flex flex-col gap-4 justify-center items-center pb-12">
+          <span class="w-[67px] bg-cor-destaque h-[2px] block"></span>
+          <h3 class="font-medium uppercase">Nossa história</h3>
+        </div>
+        <div class="pb-[60px]">
+          <h4 class="font-medium text-2xl">Relógios Inspiradores deste Ano</h4>
+          <p class="text-[15px] pt-4 pb-10">
+            Os mais recentes e modernos relógios deste ano estão disponíveis em
+            várias apresentações nesta loja. Descubra-os agora!
+          </p>
+
+          <a
+            class="text-[15px] text-container-cor bg-cor-btn px-6 py-4"
+            href="#"
+            >Descobrir</a
+          >
+        </div>
+        <div class="h-[298px] flex items-end">
+          <span
+            class="block w-[250px] h-[250px] bg-cor-destaque absolute"
+          ></span>
+          <img
+            class="relative left-[3.875rem] left-[1.375rem] bottom-12"
+            src="assets/image/img-section-historia.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-- Section Produtos -->
+
+      <section>
+        <div class="flex flex-col gap-4 justify-center items-center pb-12">
+          <span class="w-[67px] bg-cor-destaque h-[2px] block"></span>
+          <h3 class="font-medium uppercase">Produtos</h3>
+        </div>
+        <div class="flex flex-wrap justify-between gap-y-4">
+          <article
+            class="flex flex-col justify-center items-center w-[48%] py-5 border border-border-cor relative"
+          >
+            <img
+              class="w-[75px] h-[122px]"
+              src="assets/image/product1.png"
+              alt=""
+            />
+            <div
+              class="flex flex-col pt-4 gap-2 justify-center items-center relative"
+            >
+              <p class="text-[13px] uppercase font-medium">Spirit Rose</p>
+              <p class="text-sm font-medium text-cor-destaque">$ 1500</p>
+            </div>
+            <i
+              class="fa-solid fa-bag-shopping absolute bottom-0 right-[-1px] bg-cor-btn text-container-cor p-[6px]"
+            ></i>
+          </article>
+          <article
+            class="flex flex-col justify-center items-center w-[48%] py-5 border border-border-cor relative"
+          >
+            <img
+              class="w-[75px] h-[122px]"
+              src="assets/image/product2.png"
+              alt=""
+            />
+            <div
+              class="flex flex-col pt-4 gap-2 justify-center items-center relative"
+            >
+              <p class="text-[13px] uppercase font-medium">Khaki Pilot</p>
+              <p class="text-sm font-medium text-cor-destaque">$ 1350</p>
+            </div>
+            <i
+              class="fa-solid fa-bag-shopping absolute bottom-0 right-[-1px] bg-cor-btn text-container-cor p-[6px]"
+            ></i>
+          </article>
+          <article
+            class="flex flex-col justify-center items-center w-[48%] py-5 border border-border-cor relative"
+          >
+            <img
+              class="w-[75px] h-[122px]"
+              src="assets/image/product3.png"
+              alt=""
+            />
+            <div
+              class="flex flex-col pt-4 gap-2 justify-center items-center relative"
+            >
+              <p class="text-[13px] uppercase font-medium">Jubilee Black</p>
+              <p class="text-sm font-medium text-cor-destaque">$ 870</p>
+            </div>
+            <i
+              class="fa-solid fa-bag-shopping absolute bottom-0 right-[-1px] bg-cor-btn text-container-cor p-[6px]"
+            ></i>
+          </article>
+          <article
+            class="flex flex-col justify-center items-center w-[48%] py-5 border border-border-cor relative"
+          >
+            <img
+              class="w-[75px] h-[122px]"
+              src="assets/image/product4.png"
+              alt=""
+            />
+            <div
+              class="flex flex-col pt-4 gap-2 justify-center items-center relative"
+            >
+              <p class="text-[13px] uppercase font-medium">Fosil Me3</p>
+              <p class="text-sm font-medium text-cor-destaque">$ 650</p>
+            </div>
+            <i
+              class="fa-solid fa-bag-shopping absolute bottom-0 right-[-1px] bg-cor-btn text-container-cor p-[6px]"
+            ></i>
+          </article>
+          <article
+            class="flex flex-col justify-center items-center w-[48%] py-5 border border-border-cor relative"
+          >
+            <img
+              class="w-[75px] h-[122px]"
+              src="assets/image/product5.png"
+              alt=""
+            />
+            <div
+              class="flex flex-col pt-4 gap-2 justify-center items-center relative"
+            >
+              <p class="text-[13px] uppercase font-medium">Duchen</p>
+              <p class="text-sm font-medium text-cor-destaque">$ 950</p>
+            </div>
+            <i
+              class="fa-solid fa-bag-shopping absolute bottom-0 right-[-1px] bg-cor-btn text-container-cor p-[6px]"
+            ></i>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section Comentarios -->
+
+      <section class="">
+        <div class="swiper mySwiper !h-full">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="pt-10">
+                <i
+                  class="fa-solid fa-quote-left bg-container-cor px-3 py-2 text-cor-destaque text-2xl shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+                ></i>
+                <div class="py-8">
+                  <p class="text-[15px] text-left pb-5 text-text-color">
+                    São os melhores relógios que se pode adquirir, além disso
+                    estão sempre com as últimas novidades e tendências, com um
+                    preço muito confortável e principalmente com a atenção que
+                    você recebe, eles estão sempre atentos às suas dúvidas.
+                  </p>
+                  <p class="text-[15px] font-medium">Março 27, 2024</p>
+                </div>
+                <div class="flex gap-4 items-center">
+                  <img src="assets/image/Lee.png" alt="" />
+                  <div class="flex flex-col gap-1">
+                    <p class="font-medium">Lee Doe</p>
+                    <p class="text-[13px] text-text-color">
+                      Diretor de uma empresa
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pt-10">
+                <i
+                  class="fa-solid fa-quote-left bg-container-cor px-3 py-2 text-cor-destaque text-2xl shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+                ></i>
+                <div class="py-8">
+                  <p class="text-[15px] text-left pb-5 text-text-color">
+                    São os melhores relógios que se pode adquirir, além disso
+                    estão sempre com as últimas novidades e tendências, com um
+                    preço muito confortável e principalmente com a atenção que
+                    você recebe, eles estão sempre atentos às suas dúvidas.
+                  </p>
+                  <p class="text-[15px] font-medium">Março 27, 2024</p>
+                </div>
+                <div class="flex gap-4 items-center">
+                  <img src="assets/image/Raul.png" alt="" />
+                  <div class="flex flex-col gap-1">
+                    <p class="font-medium">Raul Zaman</p>
+                    <p class="text-[13px] text-text-color">
+                      Diretor de uma empresa
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pt-10">
+                <i
+                  class="fa-solid fa-quote-left bg-container-cor px-3 py-2 text-cor-destaque text-2xl shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+                ></i>
+                <div class="py-8">
+                  <p class="text-[15px] text-left pb-5 text-text-color">
+                    São os melhores relógios que se pode adquirir, além disso
+                    estão sempre com as últimas novidades e tendências, com um
+                    preço muito confortável e principalmente com a atenção que
+                    você recebe, eles estão sempre atentos às suas dúvidas.
+                  </p>
+                  <p class="text-[15px] font-medium">Março 27, 2024</p>
+                </div>
+                <div class="flex gap-4 items-center">
+                  <img src="assets/image/Samantha.png" alt="" />
+                  <div class="flex flex-col gap-1">
+                    <p class="font-medium">Samantha Mey</p>
+                    <p class="text-[13px] text-text-color">
+                      Diretor de uma empresa
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-6 pt-14">
+            <button>
+              <i
+                class="fa-solid fa-arrow-left swiper-button-prev !static !text-cor-destaque !p-[9px] !shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+              ></i>
+            </button>
+            <button>
+              <i
+                class="fa-solid fa-arrow-right swiper-button-next !static !text-cor-destaque !p-[9px] !shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+              ></i>
+            </button>
+          </div>
+
+          <div class="pt-16 flex flex-col justify-self-end pb-10">
+            <span
+              class="block bg-cor-destaque w-[250px] h-[250px] absolute"
+            ></span>
+            <img
+              class="relative top-10 right-[18px]"
+              src="assets/image/Comentarios.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Novidades -->
+
+      <section class="pt-12">
+        <div class="flex flex-col gap-4 justify-center items-center pb-12">
+          <span class="w-[67px] bg-cor-destaque h-[2px] block"></span>
+          <h3 class="font-medium uppercase">Novidades</h3>
+        </div>
+        <div>
+          <div class="swiper swiperNew home, !h-full">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article
+                  class="pt-8 pb-12 relative flex flex-col justify-center items-center border border-border-cor"
+                >
+                  <span
+                    class="bg-cor-destaque text-container-cor px-4 py-2 absolute top-4 right-4"
+                    >Novo</span
+                  >
+                  <div class="flex flex-col justify-center gap-4">
+                    <img src="assets/image/new1.png" alt="" />
+                    <div class="flex flex-col items-center">
+                      <p>Longines rose</p>
+                      <p>$ 980</p>
+                    </div>
+                    <button
+                      class="hidden py-5 px-8 bg-cor-btn text-container-cor"
+                    >
+                      Add Carrinho
+                    </button>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article
+                  class="pt-8 pb-12 relative flex flex-col justify-center items-center border border-border-cor"
+                >
+                  <span
+                    class="bg-cor-destaque text-container-cor px-4 py-2 absolute top-4 right-4"
+                    >Novo</span
+                  >
+                  <div class="flex flex-col justify-center gap-4">
+                    <img src="assets/image/new2.png" alt="" />
+                    <div class="flex flex-col items-center">
+                      <p>Jazzmaster</p>
+                      <p>$ 1180</p>
+                    </div>
+                    <button
+                      class="hidden py-5 px-8 bg-cor-btn text-container-cor"
+                    >
+                      Add Carrinho
+                    </button>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article
+                  class="pt-8 pb-12 relative flex flex-col justify-center items-center border border-border-cor"
+                >
+                  <span
+                    class="bg-cor-destaque text-container-cor px-4 py-2 absolute top-4 right-4"
+                    >Novo</span
+                  >
+                  <div class="flex flex-col justify-center gap-4">
+                    <img src="assets/image/new3.png" alt="" />
+                    <div class="flex flex-col items-center">
+                      <p>Dreyfuss gold</p>
+                      <p>$ 750</p>
+                    </div>
+                    <button
+                      class="hidden py-5 px-8 bg-cor-btn text-container-cor"
+                    >
+                      Add Carrinho
+                    </button>
+                  </div>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article
+                  class="pt-8 pb-12 relative flex flex-col justify-center items-center border border-border-cor"
+                >
+                  <span
+                    class="bg-cor-destaque text-container-cor px-4 py-2 absolute top-4 right-4"
+                    >Novo</span
+                  >
+                  <div class="flex flex-col justify-center gap-4">
+                    <img src="assets/image/new4.png" alt="" />
+                    <div class="flex flex-col items-center">
+                      <p>Portuguese Rose</p>
+                      <p>$ 1590</p>
+                    </div>
+                    <button
+                      class="hidden py-5 px-8 bg-cor-btn text-container-cor"
+                    >
+                      Add Carrinho
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+  </body>
+</html>
