@@ -1,55 +1,80 @@
-⌚ Landing Page de Relógios
+`# Landing Page de Relógios
 
 Uma landing page moderna desenvolvida para exibir e promover relógios de alta qualidade. Este projeto tem como objetivo estudar e aplicar conceitos de responsividade, estilização com Tailwind CSS e interatividade com JavaScript.
 
-🚀 Começando
+## 🚀 Começando
 
 Estas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-📋 Pré-requisitos
+## 📋 Pré-requisitos
 
-Para rodar este projeto, você precisará de um navegador atualizado, Node.js instalado na máquina e de um servidor local, como o Live Server do VSCode.
+Para rodar este projeto, você precisará de:
 
-🔧 Instalação
+- Um navegador atualizado
+- **Node.js** instalado na máquina
+- Um servidor local, como o **Live Server** do VSCode
+
+## 🔧 Instalação
 
 Siga os passos abaixo para rodar o projeto:
 
-Clone o repositório em sua máquina local:
+### 1. Clone o repositório
 
-git clone https://github.com/seu-usuario/landing-page-relogios.git
+```sh
+git clone https://github.com/seu-usuario/landing-page-relogios.git `
 
-Abra o projeto no seu editor de código preferido (ex: Visual Studio Code).
+### 2\. Abra o projeto no seu editor de código preferido
 
-No terminal, navegue até a pasta do projeto e instale as dependências:
+Exemplo: **Visual Studio Code**
 
-npm install
+### 3\. No terminal, navegue até a pasta do projeto e instale as dependências
 
-Esse comando instalará o Tailwind CSS e todas as dependências necessárias.
+sh
 
-Execute o seguinte comando para iniciar o Tailwind CSS em modo watch:
+CopiarEditar
 
-npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --watch
+`npm install`
 
-Utilize a extensão Live Server no VSCode para iniciar um servidor local e visualizar o projeto no navegador.
+Esse comando instalará o **Tailwind CSS** e todas as dependências necessárias.
 
-Abra o arquivo index.html no navegador e veja o resultado.
+### 4\. Inicie o Tailwind CSS em modo watch
+
+sh
+
+CopiarEditar
+
+`npx tailwindcss -i ./assets/css/styles.css -o ./assets/css/output.css --watch`
+
+### 5\. Inicie um servidor local
+
+Utilize a extensão **Live Server** no **VSCode** para iniciar um servidor local e visualizar o projeto no navegador.
+
+### 6\. Abra o arquivo `index.html` no navegador
+
+Agora você pode visualizar o projeto rodando! 🚀
 
 📦 Implantação
+--------------
 
-Para implantar este projeto, basta hospedá-lo em qualquer serviço de hospedagem que suporte arquivos estáticos, como GitHub Pages, Netlify ou Vercel.
+Para implantar este projeto, basta hospedá-lo em qualquer serviço de hospedagem que suporte arquivos estáticos, como:
+
+-   **GitHub Pages**
+-   **Netlify**
+-   **Vercel**
 
 🛠️ Construído com
+------------------
 
-HTML5
-
-Tailwind CSS
-
-JavaScript
+-   **HTML5**
+-   **Tailwind CSS**
+-   **JavaScript**
 
 ✒️ Autores
+----------
 
-Gustavo Lopes - Desenvolvimento Inicial - [SeuGitHub](https://github.com/Gustavoloppes-dev)
+-   **Seu Nome** - *Desenvolvimento Inicial* - [SeuGitHub](https://github.com/seu-usuario)
 
 📄 Licença
+----------
 
 Este projeto não possui uma licença específica, pois é um estudo de aprendizado.
