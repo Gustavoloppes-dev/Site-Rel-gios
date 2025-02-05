@@ -582,12 +582,8 @@ video {
   left: -18px;
 }
 
-.left-\[1\.375rem\] {
-  left: 1.375rem;
-}
-
-.left-\[3\.875rem\] {
-  left: 3.875rem;
+.left-\[1\.313rem\] {
+  left: 1.313rem;
 }
 
 .right-4 {
@@ -620,10 +616,6 @@ video {
 
 .top-8 {
   top: 2rem;
-}
-
-.left-\[1\.313rem\] {
-  left: 1.313rem;
 }
 
 .z-10 {
@@ -703,6 +695,10 @@ video {
   width: 250px;
 }
 
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .w-\[48\%\] {
   width: 48%;
 }
@@ -725,14 +721,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
 }
 
 .-rotate-90 {
@@ -784,24 +772,24 @@ video {
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
 }
 
-.gap-8 {
-  gap: 2rem;
+.gap-6 {
+  gap: 1.5rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-y-11 {
@@ -881,9 +869,19 @@ video {
   padding-right: 2rem;
 }
 
-.px-\[26\.5px\] {
-  padding-left: 26.5px;
-  padding-right: 26.5px;
+.px-\[2\.5px\] {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+.px-\[25\.5px\] {
+  padding-left: 25.5px;
+  padding-right: 25.5px;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-2 {
@@ -906,29 +904,14 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-\[22px\] {
   padding-top: 22px;
   padding-bottom: 22px;
 }
 
-.px-\[2\.5px\] {
-  padding-left: 2.5px;
-  padding-right: 2.5px;
-}
-
 .py-\[6\.11px\] {
   padding-top: 6.11px;
   padding-bottom: 6.11px;
-}
-
-.px-\[25\.5px\] {
-  padding-left: 25.5px;
-  padding-right: 25.5px;
 }
 
 .pb-10 {
@@ -987,12 +970,12 @@ video {
   padding-top: 1rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -1066,6 +1049,11 @@ video {
   color: rgb(255 181 104 / var(--tw-text-opacity));
 }
 
+.text-cor-titulo {
+  --tw-text-opacity: 1;
+  color: rgb(46 46 46 / var(--tw-text-opacity));
+}
+
 .text-text-color {
   --tw-text-opacity: 1;
   color: rgb(89 89 89 / var(--tw-text-opacity));
@@ -1074,11 +1062,6 @@ video {
 .text-text-color-lg {
   --tw-text-opacity: 1;
   color: rgb(140 140 140 / var(--tw-text-opacity));
-}
-
-.text-cor-titulo {
-  --tw-text-opacity: 1;
-  color: rgb(46 46 46 / var(--tw-text-opacity));
 }
 
 .\!shadow-\[0_3px_10px_rgb\(0\2c 0\2c 0\2c 0\.2\)\] {
